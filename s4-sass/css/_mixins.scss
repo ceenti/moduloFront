@@ -1,0 +1,16 @@
+@mixin styleInput{
+    height: 50px;
+    background-color: $color-white;
+    background-image: linear-gradient(to right);
+    border:1px solid $gray;
+    border-radius: 50px;
+    color: $color-white; 
+}
+@mixin styleButton {
+    height: 50px;
+    background-color: $color-primary;
+    background-image: linear-gradient(to right);
+    border:none;
+    border-radius: 50px;
+    color: $color-white; 
+}

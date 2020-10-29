@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container-flex{
+    background-color: $color-white;
+    .square{
+        color: $color-white;
+        background-color: $gray;
+
+        &.item-1 {
+            color: $color-primary;
+        }
+        p.text-white {
+            color: $color-white
+        }
+    }
+}
+form.form{
+    border: 1px solid $gray;
+    width: 70%;
+    margin: 50px auto;
+    padding:15px;
+    border-radius: 5px;
+    $shadow: rgba(0,0,0,0,);
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+        input{
+            @include styleInput()
+        }
+        button.btn{
+            @include styleButton()
+        }
+    }
+}
+button.btn-send{
+    @include styleButton()
+}   
