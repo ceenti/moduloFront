@@ -1,4 +1,7 @@
 
 .incluido{
-    box-sizing: content-box;
+    box-sizing: content-box ;
+}
+.vh-50{
+    height: 100vh;
 }
